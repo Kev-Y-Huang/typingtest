@@ -1,0 +1,58 @@
+.top {
+  padding: 0.5rem;
+
+  .select {
+    width: 15%;
+    background-color: black;
+    color: white;
+    margin: 0.5rem 0.25rem 0.25rem 0;
+  }
+
+  .box {
+    text-align: center;
+    border-radius: 0.25rem;
+    margin-left: 0.5rem;
+    padding: 0.25rem;
+    float: right;
+    width: 6rem;
+  }
+}
+
+.bottom {
+  padding: 0.5rem;
+  overflow: hidden;
+
+  .input {
+    float: left;
+    width: 80%
+  }
+
+  .button {
+    float: right
+  }
+}
+
+.text {
+  background-color: #222222;
+  padding: 2rem;
+  border-radius: 1rem;
+  font-family: Bahnschrift;
+  font-size: x-large;
+  text-align: justify;
+
+  .correct {
+    color: #00FF66;
+  }
+
+  .incorrect {
+    background-color: red;
+  }
+
+  .current {
+    text-decoration: underline;
+  }
+}
+
+span:empty {
+  display: none;
+}
